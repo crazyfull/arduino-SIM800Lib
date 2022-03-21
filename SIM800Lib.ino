@@ -1,3 +1,7 @@
+/*
+codec by: CRazyFULL
+*/
+
 //for wemos d1 mini wifi module
 #include <ESP8266WiFi.h>
 #include <SoftwareSerial.h>
@@ -107,7 +111,7 @@ void setup() {
   Serial.print("GSM starrt after: ");
   Serial.println(millis() - timeOld);
 
-  Serial.println("start looooooooooooooooooooooooooooooooooooop()");
+  Serial.println("start loop()");
 }
 
 void loop() {
